@@ -1,0 +1,59 @@
+.barrafixada{
+    width: 100%;
+    height: 50px;
+    background-color: #4711c1;
+    color: white;
+    font-size: 25px;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    margin: 20px;
+    text-align: justify;
+}
+
+.carrosel{
+    max-width: 900px;
+    overflow-x: scroll;
+    display: flex;
+    column-gap: 20px;
+}
+
+img{
+    height: 200px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.capa{
+    width: 100%;
+}
+
+.capaDiv{
+    width: 100%;
+}
+
+.barrafixada2{
+    width: 100%;
+    height: 100%;
+    background-color: #4711c1;
+    text-align: center;
+    color: white;
+}
+
+.botao{
+    border-radius: 50px;
+}
